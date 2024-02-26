@@ -1,0 +1,25 @@
+.card__phrase {
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    color: #fff;
+    font-style: italic;
+    text-shadow: 0 0 5px #111,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.card__phrase::after {
+    content: '"';
+}
+
+.card__phrase::before {
+    content: '"';
+}
+
+

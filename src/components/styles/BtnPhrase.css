@@ -1,0 +1,28 @@
+.card__btn {
+    display: block;
+    margin-left: auto;
+    background-color: transparent;
+    color: #fff;
+    border: 0px 0px 10px #ff00f2, 0px 0px 10px #ff00f2 inset;;
+    padding: 0.6em 1.2em;
+    font-size: 1.1rem;
+    border-radius: 0.7em;
+    font-weight: 400;
+    transition: transform 100ms ease;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    
+
+}
+
+.card__btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #ff00f2, 0px 0px 10px #ff00f2 inset;;
+    background-color: transparent;
+}
